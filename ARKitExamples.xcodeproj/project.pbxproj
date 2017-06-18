@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343BF1AF1EF4E86F00A848D0 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1AE1EF4E86F00A848D0 /* MenuTableViewController.swift */; };
+		343BF1B21EF4E8AB00A848D0 /* SimpleBoxWithTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1B11EF4E8AB00A848D0 /* SimpleBoxWithTouchViewController.swift */; };
+		343BF1B41EF4EA7F00A848D0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1B31EF4EA7F00A848D0 /* Extensions.swift */; };
+		343BF1B71EF5999A00A848D0 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1B61EF5999A00A848D0 /* GraphViewController.swift */; };
+		343BF1B91EF59A0300A848D0 /* ARBarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1B81EF59A0300A848D0 /* ARBarGraph.swift */; };
+		343BF1C81EF59B9700A848D0 /* DetectingPlaneHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1C71EF59B9700A848D0 /* DetectingPlaneHUDViewController.swift */; };
+		343BF1CB1EF5B98600A848D0 /* RedCarpetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1CA1EF5B98600A848D0 /* RedCarpetViewController.swift */; };
+		343BF1DB1EF5FDFA00A848D0 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1DA1EF5FDFA00A848D0 /* PlanetsViewController.swift */; };
+		3445A4581EF601CE003F344F /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 3445A4561EF601CD003F344F /* earth.png */; };
+		347CC07C1EF6E093007D6AB4 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CC07B1EF6E059007D6AB4 /* Plane.swift */; };
+		347CC08A1EF6E36D007D6AB4 /* earth_texture_map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 347CC0891EF6E36D007D6AB4 /* earth_texture_map.jpg */; };
+		347CC08C1EF6E3D3007D6AB4 /* jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 347CC08B1EF6E3D3007D6AB4 /* jupiter.jpg */; };
+		347CC08E1EF6E3DE007D6AB4 /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 347CC08D1EF6E3DD007D6AB4 /* mars.jpg */; };
+		347CC0901EF6ECC4007D6AB4 /* redcarpet.png in Resources */ = {isa = PBXBuildFile; fileRef = 347CC08F1EF6ECC4007D6AB4 /* redcarpet.png */; };
 		34AE89361EF4E356004EC759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE89351EF4E356004EC759 /* AppDelegate.swift */; };
 		34AE89381EF4E356004EC759 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AE89371EF4E356004EC759 /* art.scnassets */; };
 		34AE893A1EF4E356004EC759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE89391EF4E356004EC759 /* ViewController.swift */; };
 		34AE893D1EF4E356004EC759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AE893B1EF4E356004EC759 /* Main.storyboard */; };
 		34AE893F1EF4E356004EC759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AE893E1EF4E356004EC759 /* Assets.xcassets */; };
 		34AE89421EF4E356004EC759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AE89401EF4E356004EC759 /* LaunchScreen.storyboard */; };
+		34AE894B1EF4E388004EC759 /* SimpleBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE894A1EF4E388004EC759 /* SimpleBoxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		343BF1AE1EF4E86F00A848D0 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		343BF1B11EF4E8AB00A848D0 /* SimpleBoxWithTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxWithTouchViewController.swift; sourceTree = "<group>"; };
+		343BF1B31EF4EA7F00A848D0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		343BF1B61EF5999A00A848D0 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		343BF1B81EF59A0300A848D0 /* ARBarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBarGraph.swift; sourceTree = "<group>"; };
+		343BF1C71EF59B9700A848D0 /* DetectingPlaneHUDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingPlaneHUDViewController.swift; sourceTree = "<group>"; };
+		343BF1CA1EF5B98600A848D0 /* RedCarpetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCarpetViewController.swift; sourceTree = "<group>"; };
+		343BF1DA1EF5FDFA00A848D0 /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		3445A4561EF601CD003F344F /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		347CC07B1EF6E059007D6AB4 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		347CC07F1EF6E0D3007D6AB4 /* ARKitExamples-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARKitExamples-Bridging-Header.h"; sourceTree = "<group>"; };
+		347CC0811EF6E0D3007D6AB4 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
+		347CC0821EF6E0D3007D6AB4 /* Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@2x.png"; sourceTree = "<group>"; };
+		347CC0831EF6E0D3007D6AB4 /* Checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@3x.png"; sourceTree = "<group>"; };
+		347CC0841EF6E0D3007D6AB4 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		347CC0851EF6E0D3007D6AB4 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		347CC0891EF6E36D007D6AB4 /* earth_texture_map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_texture_map.jpg; sourceTree = "<group>"; };
+		347CC08B1EF6E3D3007D6AB4 /* jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpg; sourceTree = "<group>"; };
+		347CC08D1EF6E3DD007D6AB4 /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpg; sourceTree = "<group>"; };
+		347CC08F1EF6ECC4007D6AB4 /* redcarpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcarpet.png; sourceTree = "<group>"; };
 		34AE89321EF4E356004EC759 /* ARKitExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AE89351EF4E356004EC759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34AE89371EF4E356004EC759 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +59,7 @@
 		34AE893E1EF4E356004EC759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34AE89411EF4E356004EC759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34AE89431EF4E356004EC759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34AE894A1EF4E388004EC759 /* SimpleBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +73,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343BF1B01EF4E89600A848D0 /* SimpleBoxWithTouch */ = {
+			isa = PBXGroup;
+			children = (
+				343BF1B11EF4E8AB00A848D0 /* SimpleBoxWithTouchViewController.swift */,
+			);
+			path = SimpleBoxWithTouch;
+			sourceTree = "<group>";
+		};
+		343BF1B51EF5998C00A848D0 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				343BF1B61EF5999A00A848D0 /* GraphViewController.swift */,
+				343BF1B81EF59A0300A848D0 /* ARBarGraph.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		343BF1BA1EF59B3D00A848D0 /* PlaneDetectionHUD */ = {
+			isa = PBXGroup;
+			children = (
+				347CC07E1EF6E0D3007D6AB4 /* ProgressHUD */,
+				343BF1C71EF59B9700A848D0 /* DetectingPlaneHUDViewController.swift */,
+			);
+			path = PlaneDetectionHUD;
+			sourceTree = "<group>";
+		};
+		343BF1C91EF5B97400A848D0 /* RedCarpet */ = {
+			isa = PBXGroup;
+			children = (
+				347CC07B1EF6E059007D6AB4 /* Plane.swift */,
+				343BF1CA1EF5B98600A848D0 /* RedCarpetViewController.swift */,
+			);
+			path = RedCarpet;
+			sourceTree = "<group>";
+		};
+		343BF1D91EF5FDEB00A848D0 /* Planets */ = {
+			isa = PBXGroup;
+			children = (
+				343BF1DA1EF5FDFA00A848D0 /* PlanetsViewController.swift */,
+			);
+			path = Planets;
+			sourceTree = "<group>";
+		};
+		347CC07E1EF6E0D3007D6AB4 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				347CC0801EF6E0D3007D6AB4 /* Images */,
+				347CC0841EF6E0D3007D6AB4 /* MBProgressHUD.h */,
+				347CC0851EF6E0D3007D6AB4 /* MBProgressHUD.m */,
+				347CC07F1EF6E0D3007D6AB4 /* ARKitExamples-Bridging-Header.h */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		347CC0801EF6E0D3007D6AB4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				347CC0811EF6E0D3007D6AB4 /* Checkmark.png */,
+				347CC0821EF6E0D3007D6AB4 /* Checkmark@2x.png */,
+				347CC0831EF6E0D3007D6AB4 /* Checkmark@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		34AE89291EF4E356004EC759 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +156,36 @@
 		34AE89341EF4E356004EC759 /* ARKitExamples */ = {
 			isa = PBXGroup;
 			children = (
+				343BF1D91EF5FDEB00A848D0 /* Planets */,
+				343BF1C91EF5B97400A848D0 /* RedCarpet */,
+				343BF1BA1EF59B3D00A848D0 /* PlaneDetectionHUD */,
+				343BF1B51EF5998C00A848D0 /* Graph */,
+				343BF1B01EF4E89600A848D0 /* SimpleBoxWithTouch */,
+				34AE89491EF4E36D004EC759 /* Simple Box */,
 				34AE89351EF4E356004EC759 /* AppDelegate.swift */,
 				34AE89371EF4E356004EC759 /* art.scnassets */,
 				34AE89391EF4E356004EC759 /* ViewController.swift */,
 				34AE893B1EF4E356004EC759 /* Main.storyboard */,
 				34AE893E1EF4E356004EC759 /* Assets.xcassets */,
+				347CC0891EF6E36D007D6AB4 /* earth_texture_map.jpg */,
+				347CC08D1EF6E3DD007D6AB4 /* mars.jpg */,
+				347CC08F1EF6ECC4007D6AB4 /* redcarpet.png */,
+				347CC08B1EF6E3D3007D6AB4 /* jupiter.jpg */,
 				34AE89401EF4E356004EC759 /* LaunchScreen.storyboard */,
 				34AE89431EF4E356004EC759 /* Info.plist */,
+				3445A4561EF601CD003F344F /* earth.png */,
+				343BF1AE1EF4E86F00A848D0 /* MenuTableViewController.swift */,
+				343BF1B31EF4EA7F00A848D0 /* Extensions.swift */,
 			);
 			path = ARKitExamples;
+			sourceTree = "<group>";
+		};
+		34AE89491EF4E36D004EC759 /* Simple Box */ = {
+			isa = PBXGroup;
+			children = (
+				34AE894A1EF4E388004EC759 /* SimpleBoxViewController.swift */,
+			);
+			path = "Simple Box";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +220,8 @@
 				TargetAttributes = {
 					34AE89311EF4E356004EC759 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -128,7 +251,12 @@
 				34AE89381EF4E356004EC759 /* art.scnassets in Resources */,
 				34AE89421EF4E356004EC759 /* LaunchScreen.storyboard in Resources */,
 				34AE893F1EF4E356004EC759 /* Assets.xcassets in Resources */,
+				347CC08E1EF6E3DE007D6AB4 /* mars.jpg in Resources */,
 				34AE893D1EF4E356004EC759 /* Main.storyboard in Resources */,
+				347CC08C1EF6E3D3007D6AB4 /* jupiter.jpg in Resources */,
+				347CC08A1EF6E36D007D6AB4 /* earth_texture_map.jpg in Resources */,
+				3445A4581EF601CE003F344F /* earth.png in Resources */,
+				347CC0901EF6ECC4007D6AB4 /* redcarpet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +267,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343BF1AF1EF4E86F00A848D0 /* MenuTableViewController.swift in Sources */,
+				343BF1B41EF4EA7F00A848D0 /* Extensions.swift in Sources */,
+				343BF1B71EF5999A00A848D0 /* GraphViewController.swift in Sources */,
+				347CC07C1EF6E093007D6AB4 /* Plane.swift in Sources */,
 				34AE893A1EF4E356004EC759 /* ViewController.swift in Sources */,
+				343BF1CB1EF5B98600A848D0 /* RedCarpetViewController.swift in Sources */,
+				343BF1C81EF59B9700A848D0 /* DetectingPlaneHUDViewController.swift in Sources */,
+				34AE894B1EF4E388004EC759 /* SimpleBoxViewController.swift in Sources */,
+				343BF1B91EF59A0300A848D0 /* ARBarGraph.swift in Sources */,
 				34AE89361EF4E356004EC759 /* AppDelegate.swift in Sources */,
+				343BF1DB1EF5FDFA00A848D0 /* PlanetsViewController.swift in Sources */,
+				343BF1B21EF4E8AB00A848D0 /* SimpleBoxWithTouchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +411,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
 				INFOPLIST_FILE = ARKitExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.ARKitExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARKitExamples/PlaneDetectionHUD/ProgressHUD/ARKitExamples-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,10 +433,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2Q8EGNCQA;
 				INFOPLIST_FILE = ARKitExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.ARKitExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARKitExamples/PlaneDetectionHUD/ProgressHUD/ARKitExamples-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,6 +469,7 @@
 				34AE89481EF4E356004EC759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
