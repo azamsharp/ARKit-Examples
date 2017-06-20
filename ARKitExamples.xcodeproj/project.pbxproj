@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340FD3391EF8610B0070A676 /* BreakingWallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340FD3381EF8610B0070A676 /* BreakingWallsViewController.swift */; };
 		343BF1AF1EF4E86F00A848D0 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1AE1EF4E86F00A848D0 /* MenuTableViewController.swift */; };
 		343BF1B21EF4E8AB00A848D0 /* SimpleBoxWithTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1B11EF4E8AB00A848D0 /* SimpleBoxWithTouchViewController.swift */; };
 		343BF1B41EF4EA7F00A848D0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343BF1B31EF4EA7F00A848D0 /* Extensions.swift */; };
@@ -21,6 +22,7 @@
 		347CC08C1EF6E3D3007D6AB4 /* jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 347CC08B1EF6E3D3007D6AB4 /* jupiter.jpg */; };
 		347CC08E1EF6E3DE007D6AB4 /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 347CC08D1EF6E3DD007D6AB4 /* mars.jpg */; };
 		347CC0901EF6ECC4007D6AB4 /* redcarpet.png in Resources */ = {isa = PBXBuildFile; fileRef = 347CC08F1EF6ECC4007D6AB4 /* redcarpet.png */; };
+		348F22B71EF9A07000D56FBF /* brick-wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348F22B61EF9A07000D56FBF /* brick-wall.jpg */; };
 		34AE89361EF4E356004EC759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE89351EF4E356004EC759 /* AppDelegate.swift */; };
 		34AE89381EF4E356004EC759 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AE89371EF4E356004EC759 /* art.scnassets */; };
 		34AE893A1EF4E356004EC759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE89391EF4E356004EC759 /* ViewController.swift */; };
@@ -28,9 +30,12 @@
 		34AE893F1EF4E356004EC759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AE893E1EF4E356004EC759 /* Assets.xcassets */; };
 		34AE89421EF4E356004EC759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AE89401EF4E356004EC759 /* LaunchScreen.storyboard */; };
 		34AE894B1EF4E388004EC759 /* SimpleBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE894A1EF4E388004EC759 /* SimpleBoxViewController.swift */; };
+		34C2575E1EF8290400F2846A /* CollisionDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2575D1EF8290400F2846A /* CollisionDetectionViewController.swift */; };
+		34C257601EF8352D00F2846A /* CollisionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2575F1EF8352D00F2846A /* CollisionScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340FD3381EF8610B0070A676 /* BreakingWallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingWallsViewController.swift; sourceTree = "<group>"; };
 		343BF1AE1EF4E86F00A848D0 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		343BF1B11EF4E8AB00A848D0 /* SimpleBoxWithTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxWithTouchViewController.swift; sourceTree = "<group>"; };
 		343BF1B31EF4EA7F00A848D0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		347CC08B1EF6E3D3007D6AB4 /* jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpg; sourceTree = "<group>"; };
 		347CC08D1EF6E3DD007D6AB4 /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpg; sourceTree = "<group>"; };
 		347CC08F1EF6ECC4007D6AB4 /* redcarpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcarpet.png; sourceTree = "<group>"; };
+		348F22B61EF9A07000D56FBF /* brick-wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brick-wall.jpg"; sourceTree = "<group>"; };
 		34AE89321EF4E356004EC759 /* ARKitExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AE89351EF4E356004EC759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34AE89371EF4E356004EC759 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 		34AE89411EF4E356004EC759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34AE89431EF4E356004EC759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34AE894A1EF4E388004EC759 /* SimpleBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxViewController.swift; sourceTree = "<group>"; };
+		34C2575D1EF8290400F2846A /* CollisionDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionDetectionViewController.swift; sourceTree = "<group>"; };
+		34C2575F1EF8352D00F2846A /* CollisionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340FD3371EF85FF10070A676 /* Breaking Walls */ = {
+			isa = PBXGroup;
+			children = (
+				340FD3381EF8610B0070A676 /* BreakingWallsViewController.swift */,
+			);
+			path = "Breaking Walls";
+			sourceTree = "<group>";
+		};
 		343BF1B01EF4E89600A848D0 /* SimpleBoxWithTouch */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +172,8 @@
 		34AE89341EF4E356004EC759 /* ARKitExamples */ = {
 			isa = PBXGroup;
 			children = (
+				340FD3371EF85FF10070A676 /* Breaking Walls */,
+				34C2575C1EF828E800F2846A /* CollisionDetection */,
 				343BF1D91EF5FDEB00A848D0 /* Planets */,
 				343BF1C91EF5B97400A848D0 /* RedCarpet */,
 				343BF1BA1EF59B3D00A848D0 /* PlaneDetectionHUD */,
@@ -168,6 +186,7 @@
 				34AE893B1EF4E356004EC759 /* Main.storyboard */,
 				34AE893E1EF4E356004EC759 /* Assets.xcassets */,
 				347CC0891EF6E36D007D6AB4 /* earth_texture_map.jpg */,
+				348F22B61EF9A07000D56FBF /* brick-wall.jpg */,
 				347CC08D1EF6E3DD007D6AB4 /* mars.jpg */,
 				347CC08F1EF6ECC4007D6AB4 /* redcarpet.png */,
 				347CC08B1EF6E3D3007D6AB4 /* jupiter.jpg */,
@@ -186,6 +205,15 @@
 				34AE894A1EF4E388004EC759 /* SimpleBoxViewController.swift */,
 			);
 			path = "Simple Box";
+			sourceTree = "<group>";
+		};
+		34C2575C1EF828E800F2846A /* CollisionDetection */ = {
+			isa = PBXGroup;
+			children = (
+				34C2575D1EF8290400F2846A /* CollisionDetectionViewController.swift */,
+				34C2575F1EF8352D00F2846A /* CollisionScene.swift */,
+			);
+			path = CollisionDetection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +285,7 @@
 				347CC08A1EF6E36D007D6AB4 /* earth_texture_map.jpg in Resources */,
 				3445A4581EF601CE003F344F /* earth.png in Resources */,
 				347CC0901EF6ECC4007D6AB4 /* redcarpet.png in Resources */,
+				348F22B71EF9A07000D56FBF /* brick-wall.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +301,10 @@
 				343BF1B71EF5999A00A848D0 /* GraphViewController.swift in Sources */,
 				347CC07C1EF6E093007D6AB4 /* Plane.swift in Sources */,
 				34AE893A1EF4E356004EC759 /* ViewController.swift in Sources */,
+				340FD3391EF8610B0070A676 /* BreakingWallsViewController.swift in Sources */,
 				343BF1CB1EF5B98600A848D0 /* RedCarpetViewController.swift in Sources */,
+				34C2575E1EF8290400F2846A /* CollisionDetectionViewController.swift in Sources */,
+				34C257601EF8352D00F2846A /* CollisionScene.swift in Sources */,
 				343BF1C81EF59B9700A848D0 /* DetectingPlaneHUDViewController.swift in Sources */,
 				34AE894B1EF4E388004EC759 /* SimpleBoxViewController.swift in Sources */,
 				343BF1B91EF59A0300A848D0 /* ARBarGraph.swift in Sources */,

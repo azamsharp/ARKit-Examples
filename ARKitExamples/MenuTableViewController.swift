@@ -11,7 +11,7 @@ import UIKit
 
 class MenuTableViewController : UITableViewController {
     
-    let menuItems = ["Simple Box", "Simple Box with Touch", "Bar Charts", "Red Carpet Using Plane Detection", "Planets"]
+    let menuItems = ["Simple Box", "Simple Box with Touch", "Bar Charts", "Red Carpet Using Plane Detection", "Planets", "Collision Detection","Breaking Brick Walls"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,12 +44,17 @@ class MenuTableViewController : UITableViewController {
                 let controller = PlanetsViewController()
                 self.navigationController?.pushViewController(controller, animated: true)
             
+            case 5:
+                let controller = CollisionDetectionViewController()
+                self.navigationController?.pushViewController(controller, animated: true)
+            
+            case 6:
+                let controller = BreakingWallsViewController()
+                self.navigationController?.pushViewController(controller, animated: true)
+            
             default:
                 print("something")
         }
-        
-        
-        
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
