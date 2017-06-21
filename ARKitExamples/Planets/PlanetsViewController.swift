@@ -30,9 +30,6 @@ class PlanetsViewController: UIViewController, ARSCNViewDelegate {
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
-        
-        
-        
         let scene = SCNScene()
         
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapped))
@@ -43,24 +40,16 @@ class PlanetsViewController: UIViewController, ARSCNViewDelegate {
         self.label = UILabel(frame: CGRect(x: 0, y: 0, width: self.sceneView.frame.size.width, height: 100))
         self.label.center = self.sceneView.center
         self.label.textAlignment = .center
-        self.label.text = "Tap on the screen"
+      //  self.label.text = "Tap on the screen"
         
         self.sceneView.addSubview(self.label)
     }
     
     @objc func tapped(recognizer :UIGestureRecognizer) {
         
-        self.label.text = ""
-        
-        if i > self.planets.count - 1 {
-            return
-        }
-        
         guard let currentFrame = self.sceneView.session.currentFrame else {
             return
         }
-        
-        print(currentFrame.camera.eulerAngles)
         
         var translation = matrix_identity_float4x4
         translation.columns.3.z = -0.1
@@ -76,12 +65,11 @@ class PlanetsViewController: UIViewController, ARSCNViewDelegate {
         node.physicsBody?.mass = 5
         node.physicsBody?.isAffectedByGravity = false
         
+        node.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 0, z: CGFloat(2*Double.pi), duration: 20)))
+        
         node.simdTransform = matrix_multiply(currentFrame.camera.transform, translation)
         
-        
         let forceVector = SCNVector3(node.worldFront.x, node.worldFront.y, node.worldFront.z)
-        
-        print(forceVector)
         
         node.physicsBody?.applyForce(forceVector, asImpulse: true)
         
